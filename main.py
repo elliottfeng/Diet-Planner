@@ -4,6 +4,10 @@ from planner import planner  # 确保导入你的 planner 函数
 # 设置页面标题
 st.title("体脂率和基础代谢值计算器")
 
+# 在页面上标注名字和邮箱
+st.sidebar.markdown("**冯宇洋**")
+st.sidebar.markdown("邮箱: [elliottfeng@mail.com](mailto:elliottfeng@mail.com)")
+
 # 侧边栏输入 API 密钥
 api_key = st.sidebar.text_input("请输入你的 API 密钥", type="password", value="sk-9e93c5fca1a1419eb749550a65940b55")
 
