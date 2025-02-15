@@ -15,7 +15,7 @@ def planner(sex, age, height, weight, waistline, neckline, body_info, target, ap
          "{body_info},我的身体管理目标是（增肌，减脂，保持）：{target},你是一位经验丰富的健身营养师，请根据我的体脂率和基础代谢值,参考我的身材管理的目标为{target},为我定制每日的营养摄入量。")
     ])
 
-    llm = ChatOpenAI(model="deepseek-chat", api_key=api_key, base_url="https://api.deepseek.com/", max_tokens=1024)
+    llm = ChatOpenAI(model="deepseek-chat", api_key=api_key, base_url="https://vip.apiyi.com/v1", max_tokens=1024)
 
     info_chain = user_info | llm
     target_chain = user_target | llm
