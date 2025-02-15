@@ -9,7 +9,7 @@ st.sidebar.markdown("**冯宇洋**")
 st.sidebar.markdown("邮箱: [elliottfeng@mail.com](mailto:elliottfeng@mail.com)")
 
 # 侧边栏输入 API 密钥
-api_key = st.sidebar.text_input("请输入你的 API 密钥", type="password", value="sk-9e93c5fca1a1419eb749550a65940b55")
+api_key = st.sidebar.text_input("请输入你的 API 密钥", type="password", value="sk-mcPCh2zIXjSTN53c23B73c9316D74e47A50eD42c52692a43")
 
 # 主页面输入框
 st.header("用户信息输入")
